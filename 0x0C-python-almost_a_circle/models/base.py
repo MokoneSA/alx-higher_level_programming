@@ -5,12 +5,14 @@ import json
 import csv
 import turtle
 
+
 class Base:
     """Base model.
 
     This Represent the "base" for alll other classes in the project 0x0C*.
 
     Private Class Attributes:
+
         __nb_object (int): Number of instantiated Bases.
     """
 
@@ -27,4 +29,3 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-
