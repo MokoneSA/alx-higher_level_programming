@@ -1,4 +1,5 @@
- a Rectangle class."""
+#!/usr/bin/python3
+""" a Rectangle class."""
 
 
 class Rectangle:
